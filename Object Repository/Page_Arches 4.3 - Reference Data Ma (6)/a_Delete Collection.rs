@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search for a Concept</name>
+   <name>a_Delete Collection</name>
    <tag></tag>
-   <elementGuidId>54da829a-bbb3-4ec4-9cc0-a9116b7ba1bd</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;s2id_autogen3&quot;)[count(. | //div[@id = 's2id_autogen3']) = count(//div[@id = 's2id_autogen3'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>c8388930-7a3c-42a1-ab54-ac54df98d521</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,27 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>s2id_autogen3</value>
+      <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>select2-container select2 concept_search_widget</value>
+      <value>#delete-collection-form</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete Collection</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_autogen3&quot;)</value>
+      <value>id(&quot;sidebar&quot;)/div[@class=&quot;tab-content&quot;]/div[@class=&quot;btn-group pull-right hidden-xs open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[7]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

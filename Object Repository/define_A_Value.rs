@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>When the Relation to Concpet object has been clicked</description>
-   <name>Relation Dropdown</name>
+   <description></description>
+   <name>define_A_Value</name>
    <tag></tag>
-   <elementGuidId>50d91373-566c-47d7-b6cd-48dad85341cb</elementGuidId>
+   <elementGuidId>e8982b2a-6c42-4ddb-916b-ec231fd00933</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;s2id_related-relation-type&quot;)[count(. | //div[@id = 's2id_related-relation-type' and @class = 'select2-container select2 select2-container-active select2-dropdown-open' and @value = 'related']) = count(//div[@id = 's2id_related-relation-type' and @class = 'select2-container select2 select2-container-active select2-dropdown-open' and @value = 'related'])]</value>
+         <value>//*[@id=&quot;related_value_value&quot;][count(. | //*[@id = 'related_value_value' and @type = 'input' and @class = 'form-control value-input']) = count(//*[@id = 'related_value_value' and @type = 'input' and @class = 'form-control value-input'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,29 +15,29 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
+      <name>id</name>
       <type>Main</type>
-      <value>div</value>
+      <value>related_value_value</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>s2id_related-relation-type</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-container select2 select2-container-active select2-dropdown-open</value>
+      <value>form-control value-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_related-relation-type&quot;)</value>
+      <value>//*[@id=&quot;related_value_value&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

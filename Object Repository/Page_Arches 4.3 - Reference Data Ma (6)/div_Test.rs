@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search for a Concept</name>
+   <name>div_Test</name>
    <tag></tag>
-   <elementGuidId>54da829a-bbb3-4ec4-9cc0-a9116b7ba1bd</elementGuidId>
+   <elementGuidId>cd31da10-70cb-40e6-9e66-03bad7dce28a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>id(&quot;s2id_autogen3&quot;)[count(. | //div[@id = 's2id_autogen3']) = count(//div[@id = 's2id_autogen3'])]</value>
+         <value>id(&quot;ddtree&quot;)/ul[@class=&quot;jqtree_common jqtree-tree&quot;]/li[@class=&quot;jqtree_common&quot;]/div[@class=&quot;jqtree-element jqtree_common&quot;][count(. | //div[(text() = 'Test' or . = 'Test')]) = count(//div[(text() = 'Test' or . = 'Test')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,24 +20,31 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>s2id_autogen3</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-container select2 concept_search_widget</value>
+      <value>jqtree-element jqtree_common</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_autogen3&quot;)</value>
+      <value>id(&quot;ddtree&quot;)/ul[@class=&quot;jqtree_common jqtree-tree&quot;]/li[@class=&quot;jqtree_common&quot;]/div[@class=&quot;jqtree-element jqtree_common&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
