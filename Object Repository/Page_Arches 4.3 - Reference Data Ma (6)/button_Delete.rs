@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search for a Concept</name>
+   <name>button_Delete</name>
    <tag></tag>
-   <elementGuidId>54da829a-bbb3-4ec4-9cc0-a9116b7ba1bd</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;s2id_autogen3&quot;)[count(. | //div[@id = 's2id_autogen3']) = count(//div[@id = 's2id_autogen3'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>ef115a28-e568-41c7-8d43-2879b77b93d0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,27 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>s2id_autogen3</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-container select2 concept_search_widget</value>
+      <value>btn-u btn-u-red</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_autogen3&quot;)</value>
+      <value>id(&quot;delete-collection-form&quot;)/form[@class=&quot;modal fade in&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn-u btn-u-red&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

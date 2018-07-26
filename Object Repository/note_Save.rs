@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>When the Relation to Concpet object has been clicked</description>
-   <name>Relation Dropdown</name>
+   <description></description>
+   <name>note_Save</name>
    <tag></tag>
-   <elementGuidId>50d91373-566c-47d7-b6cd-48dad85341cb</elementGuidId>
+   <elementGuidId>04538920-7573-4d91-907c-a4c8078a4928</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;s2id_related-relation-type&quot;)[count(. | //div[@id = 's2id_related-relation-type' and @class = 'select2-container select2 select2-container-active select2-dropdown-open' and @value = 'related']) = count(//div[@id = 's2id_related-relation-type' and @class = 'select2-container select2 select2-container-active select2-dropdown-open' and @value = 'related'])]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,29 +15,29 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>s2id_related-relation-type</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-container select2 select2-container-active select2-dropdown-open</value>
+      <value>btn-u</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_related-relation-type&quot;)</value>
+      <value>/html/body/div[2]/div/div/div/div[5]/div/div/div[3]/div[1]/div/div/div/div[4]/form[2]/div[2]/div/div[3]/button[2]</value>
    </webElementProperties>
 </WebElementEntity>

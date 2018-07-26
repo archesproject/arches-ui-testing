@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search for a Concept</name>
+   <name>a_Manage Data</name>
    <tag></tag>
-   <elementGuidId>54da829a-bbb3-4ec4-9cc0-a9116b7ba1bd</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;s2id_autogen3&quot;)[count(. | //div[@id = 's2id_autogen3']) = count(//div[@id = 's2id_autogen3'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>2f859a2b-763c-406b-a304-5da31b4a7d1c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>s2id_autogen3</value>
+      <value>/resource</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manage Data</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>select2-container select2 concept_search_widget</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_autogen3&quot;)</value>
+      <value>id(&quot;body&quot;)/nav[@class=&quot;one-page-header navbar navbar-default navbar-fixed-top&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;collapse navbar-collapse navbar-ex1-collapse&quot;]/div[@class=&quot;menu-container&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;page-scroll&quot;]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

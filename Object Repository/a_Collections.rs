@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search for a Concept</name>
+   <name>a_Collections</name>
    <tag></tag>
-   <elementGuidId>54da829a-bbb3-4ec4-9cc0-a9116b7ba1bd</elementGuidId>
+   <elementGuidId>57e98698-4d0e-4aa4-a913-f7ac8fccbf65</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>id(&quot;s2id_autogen3&quot;)[count(. | //div[@id = 's2id_autogen3']) = count(//div[@id = 's2id_autogen3'])]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,27 +17,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>s2id_autogen3</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-container select2 concept_search_widget</value>
+      <value>config-title-tab mar-no</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_autogen3&quot;)</value>
+      <value>/html/body/div[2]/div/div/div/div[5]/div/div/div[1]/div/ul/li[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

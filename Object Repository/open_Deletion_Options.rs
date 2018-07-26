@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>When the Relation to Concpet object has been clicked</description>
-   <name>Relation Dropdown</name>
+   <description></description>
+   <name>open_Deletion_Options</name>
    <tag></tag>
-   <elementGuidId>50d91373-566c-47d7-b6cd-48dad85341cb</elementGuidId>
+   <elementGuidId>6a6d3b96-dcd9-4243-a170-4de560630e22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;s2id_related-relation-type&quot;)[count(. | //div[@id = 's2id_related-relation-type' and @class = 'select2-container select2 select2-container-active select2-dropdown-open' and @value = 'related']) = count(//div[@id = 's2id_related-relation-type' and @class = 'select2-container select2 select2-container-active select2-dropdown-open' and @value = 'related'])]</value>
+         <value>//*[@id=&quot;s2id_autogen13&quot;][count(. | //div[@id = 's2id_autogen13']) = count(//div[@id = 's2id_autogen13'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,20 +24,20 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>s2id_related-relation-type</value>
+      <value>s2id_autogen13</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select2-container select2 select2-container-active select2-dropdown-open</value>
+      <value>select2-container select2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;s2id_related-relation-type&quot;)</value>
+      <value>//*[@id=&quot;s2id_autogen13&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
