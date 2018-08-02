@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RDM Test Suite" time="105" tests="3" failures="1" errors="1">
+   <testsuite name="RDM Test Suite" tests="3" failures="1" errors="1" time="105" timestamp="2018-08-01 12:19:44" hostname="awuthrich - 192.168.1.106" id="Test Suites/RDM Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/awuthrich/Katalon Studio/Testing scripts/Reports/RDM Test Suite/20180801_121943"/>
+         <property name="logFiles" value="/Users/awuthrich/Katalon Studio/Testing scripts/Reports/RDM Test Suite/20180801_121943/execution0.log"/>
+         <property name="attachments" value="/Users/awuthrich/Katalon Studio/Testing scripts/Reports/RDM Test Suite/20180801_121943/1533151216529.png"/>
+         <property name="hostName" value="awuthrich - 192.168.1.106"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.1.106"/>
+         <property name="sessionId" value="c86874c94558fbddc9c5b9a3f50ebd51"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RDM/RDM Create Thesauri and Collection" classname="Test Cases/RDM/RDM Create Thesauri and Collection" status="PASSED">
+         <system-out><![CDATA[2018-08-01 12:19:44 - [TEST_CASE][PASSED] - Test Cases/RDM/RDM Create Thesauri and Collection: Test Cases/RDM/RDM Create Thesauri and Collection
+
+2018-08-01 12:19:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:19:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:19:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:19:47 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:19:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:19:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:19:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:19:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:19:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:19:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:19:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Design' is clicked on
+
+2018-08-01 12:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Design' is clicked on
+
+2018-08-01 12:19:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:19:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:19:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:19:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Tools' is clicked on
+
+2018-08-01 12:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Tools' is clicked on
+
+2018-08-01 12:19:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:19:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:19:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/a_Add Thesauri' is clicked on
+
+2018-08-01 12:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/a_Add Thesauri' is clicked on
+
+2018-08-01 12:19:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:19:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:19:56 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/input_label'
+
+2018-08-01 12:19:57 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/input_label'
+
+2018-08-01 12:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Save changes' is clicked on
+
+2018-08-01 12:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Save changes' is clicked on
+
+2018-08-01 12:19:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:19:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/div_Test' is clicked on
+
+2018-08-01 12:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/div_Test' is clicked on
+
+2018-08-01 12:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Manage' is clicked on
+
+2018-08-01 12:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Manage' is clicked on
+
+2018-08-01 12:19:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/a_Make Collection' is clicked on
+
+2018-08-01 12:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/a_Make Collection' is clicked on
+
+2018-08-01 12:19:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-01 12:19:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Thesauri Note, Value, Image" classname="Test Cases/RDM/RDM Thesauri Note, Value, Image" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)"/>
+         <system-out><![CDATA[2018-08-01 12:19:59 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Thesauri Note, Value, Image: Test Cases/RDM/RDM Thesauri Note, Value, Image FAILED because (of) Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)
+
+2018-08-01 12:19:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:20:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:20:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:01 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:20:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:20:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:20:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:20:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:20:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:20:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:20:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:20:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Add_Label' is clicked on
+
+2018-08-01 12:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Add_Label' is clicked on
+
+2018-08-01 12:20:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)
+
+2018-08-01 12:20:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)
+[[ATTACHMENT|/Users/awuthrich/Katalon Studio/Testing scripts/Reports/RDM Test Suite/20180801_121943/1533151216529.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 12:19:59 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Thesauri Note, Value, Image: Test Cases/RDM/RDM Thesauri Note, Value, Image FAILED because (of) Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Thesauri Related Concepts" classname="Test Cases/RDM/RDM Thesauri Related Concepts" status="PASSED">
+         <system-out><![CDATA[2018-08-01 12:20:17 - [TEST_CASE][PASSED] - Test Cases/RDM/RDM Thesauri Related Concepts: Test Cases/RDM/RDM Thesauri Related Concepts
+
+2018-08-01 12:20:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:20:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 12:20:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:20:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:18 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:20:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:20:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:20:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:20:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:20:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:20:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:20:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:20:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:20:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add related concept' is clicked on
+
+2018-08-01 12:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add related concept' is clicked on
+
+2018-08-01 12:20:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search for a Concept' is clicked on
+
+2018-08-01 12:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Search for a Concept' is clicked on
+
+2018-08-01 12:20:28 - [TEST_STEP][PASSED] - setText: Text 'asbestos' is set on object 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:20:29 - [MESSAGE][PASSED] - Text 'asbestos' is set on object 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:20:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:20:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:20:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Relation to Concept' is clicked on
+
+2018-08-01 12:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Relation to Concept' is clicked on
+
+2018-08-01 12:20:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Test Click' is clicked on
+
+2018-08-01 12:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Test Click' is clicked on
+
+2018-08-01 12:20:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btn_Concept_Save' is clicked on
+
+2018-08-01 12:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Concept_Save' is clicked on
+
+2018-08-01 12:20:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-01 12:20:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Delete Thesauri" classname="Test Cases/RDM/RDM Delete Thesauri" status="ERROR">
+         <error type="ERROR" message="Test Cases/RDM/RDM Delete Thesauri FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-08-01 12:20:33 - [TEST_CASE][ERROR] - Test Cases/RDM/RDM Delete Thesauri: Test Cases/RDM/RDM Delete Thesauri FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2018-08-01 12:20:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:20:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:20:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:35 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:20:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:20:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:20:35 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:20:35 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:20:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:20:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Design' is clicked on
+
+2018-08-01 12:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Design' is clicked on
+
+2018-08-01 12:20:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:20:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Tools' is clicked on
+
+2018-08-01 12:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Tools' is clicked on
+
+2018-08-01 12:20:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_Thesauri_Btn' is clicked on
+
+2018-08-01 12:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_Thesauri_Btn' is clicked on
+
+2018-08-01 12:20:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_Scheme_Search' is clicked on
+
+2018-08-01 12:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_Scheme_Search' is clicked on
+
+2018-08-01 12:20:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:46 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:20:47 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:20:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:20:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:20:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:20:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:20:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btn_Delete_Thesauri' is clicked on
+
+2018-08-01 12:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_Delete_Thesauri' is clicked on
+
+2018-08-01 12:20:56 - [TEST_STEP][PASSED] - closeBrowser: null]]></system-out>
+         <system-err><![CDATA[2018-08-01 12:20:33 - [TEST_CASE][ERROR] - Test Cases/RDM/RDM Delete Thesauri: Test Cases/RDM/RDM Delete Thesauri FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Collections All" classname="Test Cases/RDM/RDM Collections All" status="PASSED">
+         <system-out><![CDATA[2018-08-01 12:20:56 - [TEST_CASE][PASSED] - Test Cases/RDM/RDM Collections All: Test Cases/RDM/RDM Collections All
+
+2018-08-01 12:20:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:20:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 12:20:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:20:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-01 12:20:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-01 12:20:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:58 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:20:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Login' is clicked on
+
+2018-08-01 12:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Login' is clicked on
+
+2018-08-01 12:20:58 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:20:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:20:58 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:20:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:20:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:20:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Manage Data' is clicked on
+
+2018-08-01 12:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Manage Data' is clicked on
+
+2018-08-01 12:21:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Resource Manager (8)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Resource Manager (8)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:21:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Collections' is clicked on
+
+2018-08-01 12:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Collections' is clicked on
+
+2018-08-01 12:21:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/div_Test' is clicked on
+
+2018-08-01 12:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/div_Test' is clicked on
+
+2018-08-01 12:21:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/h5_Labels' is clicked on
+
+2018-08-01 12:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/h5_Labels' is clicked on
+
+2018-08-01 12:21:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add label' is clicked on
+
+2018-08-01 12:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add label' is clicked on
+
+2018-08-01 12:21:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_Concept_Label' is clicked on
+
+2018-08-01 12:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Concept_Label' is clicked on
+
+2018-08-01 12:21:08 - [TEST_STEP][PASSED] - setText: Text '49er' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_concept-label'
+
+2018-08-01 12:21:08 - [MESSAGE][PASSED] - Text '49er' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_concept-label'
+
+2018-08-01 12:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_Type' is clicked on
+
+2018-08-01 12:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/label_Type' is clicked on
+
+2018-08-01 12:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/alt_Label' is clicked on
+
+2018-08-01 12:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/alt_Label' is clicked on
+
+2018-08-01 12:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_Save_Btn' is clicked on
+
+2018-08-01 12:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/label_Save_Btn' is clicked on
+
+2018-08-01 12:21:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add note' is clicked on
+
+2018-08-01 12:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add note' is clicked on
+
+2018-08-01 12:21:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Note_Value' is clicked on
+
+2018-08-01 12:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Note_Value' is clicked on
+
+2018-08-01 12:21:12 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/textarea_note_value'
+
+2018-08-01 12:21:12 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/textarea_note_value'
+
+2018-08-01 12:21:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/note_Save' is clicked on
+
+2018-08-01 12:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/note_Save' is clicked on
+
+2018-08-01 12:21:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add value' is clicked on
+
+2018-08-01 12:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add value' is clicked on
+
+2018-08-01 12:21:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:19 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_related_value_value'
+
+2018-08-01 12:21:19 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_related_value_value'
+
+2018-08-01 12:21:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/value_Save_Btn' is clicked on
+
+2018-08-01 12:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/value_Save_Btn' is clicked on
+
+2018-08-01 12:21:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/i_fa fa-chevron-down' is clicked on
+
+2018-08-01 12:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/i_fa fa-chevron-down' is clicked on
+
+2018-08-01 12:21:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Delete Collection' is clicked on
+
+2018-08-01 12:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Delete Collection' is clicked on
+
+2018-08-01 12:21:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/open_Deletion_Options' is clicked on
+
+2018-08-01 12:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/open_Deletion_Options' is clicked on
+
+2018-08-01 12:21:25 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/delete_Collection'
+
+2018-08-01 12:21:25 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/delete_Collection'
+
+2018-08-01 12:21:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/delete_Collection'
+
+2018-08-01 12:21:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/delete_Collection'
+
+2018-08-01 12:21:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:21:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:21:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Delete_Collection' is clicked on
+
+2018-08-01 12:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Delete_Collection' is clicked on
+
+2018-08-01 12:21:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-01 12:21:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 12:19:44 - [TEST_SUITE][FAILED] - RDM Test Suite: Test Cases/RDM/RDM Thesauri Note, Value, Image FAILED because (of) Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)]]></system-out>
+      <system-err><![CDATA[2018-08-01 12:19:44 - [TEST_SUITE][FAILED] - RDM Test Suite: Test Cases/RDM/RDM Thesauri Note, Value, Image FAILED because (of) Unable to click on object 'Object Repository/input_Concept_Label' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/qy/d6mh1grs5d5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 26e883e57950bb46f4140f1ca684be0e)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>delete_Thesauri_Btn</name>
+   <tag></tag>
+   <elementGuidId>8d8a7cfb-bade-410d-8df8-cc831cc6d0ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div/div/div/div[5]/div/div/div[1]/div/div/div/ul/li[4]/a</value>
+   </webElementProperties>
+</WebElementEntity>

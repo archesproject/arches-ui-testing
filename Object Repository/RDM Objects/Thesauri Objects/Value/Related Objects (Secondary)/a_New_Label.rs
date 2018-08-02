@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_New_Label</name>
+   <tag></tag>
+   <elementGuidId>1ba30dbd-f8eb-458b-aaa8-905c9fd91ecb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div/div/div/div[6]/div/div/div[3]/div[1]/div/div/div/div[2]/div[3]/dl/dt/h5/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[2]/div/div/div/div[6]/div/div/div[3]/div[1]/div/div/div/div[2]/div[3]/dl/dt/h5/span/a</value>
+   </webElementProperties>
+</WebElementEntity>
