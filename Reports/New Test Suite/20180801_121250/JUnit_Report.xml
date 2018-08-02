@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="107" tests="1" failures="4" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="4" errors="0" time="107" timestamp="2018-08-01 12:12:51" hostname="awuthrich - 192.168.1.106" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250"/>
+         <property name="logFiles" value="/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/execution0.log"/>
+         <property name="attachments" value="/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150776053.png, /Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150819439.png, /Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150839554.png, /Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150878192.png"/>
+         <property name="hostName" value="awuthrich - 192.168.1.106"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.1.106"/>
+         <property name="sessionId" value="48bfa070-bab7-4c4a-ba8e-1dda5ea17272"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RDM/RDM Create Thesauri and Collection" classname="Test Cases/RDM/RDM Create Thesauri and Collection" status="FAILED">
+         <failure type="FAILED" message="Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-08-01 12:12:51 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Create Thesauri and Collection: Test Cases/RDM/RDM Create Thesauri and Collection FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-01 12:12:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:12:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:12:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:12:55 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:12:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:12:56 - [TEST_STEP][FAILED] - setText: Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-08-01 12:12:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Arches 4.3 - (5)/input_username' does not exist
+
+2018-08-01 12:12:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-08-01 12:12:57 - [MESSAGE][FAILED] - Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150776053.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 12:12:51 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Create Thesauri and Collection: Test Cases/RDM/RDM Create Thesauri and Collection FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Thesauri Note, Value, Image" classname="Test Cases/RDM/RDM Thesauri Note, Value, Image" status="PASSED">
+         <system-out><![CDATA[2018-08-01 12:12:57 - [TEST_CASE][PASSED] - Test Cases/RDM/RDM Thesauri Note, Value, Image: Test Cases/RDM/RDM Thesauri Note, Value, Image
+
+2018-08-01 12:12:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:12:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 12:12:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:12:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:13:00 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:13:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:13:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:13:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:13:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:13:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:13:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:13:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:13:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:13:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Add_Label' is clicked on
+
+2018-08-01 12:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Add_Label' is clicked on
+
+2018-08-01 12:13:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_Concept_Label' is clicked on
+
+2018-08-01 12:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Concept_Label' is clicked on
+
+2018-08-01 12:13:10 - [TEST_STEP][PASSED] - setText: Text '49er' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_concept-label'
+
+2018-08-01 12:13:10 - [MESSAGE][PASSED] - Text '49er' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_concept-label'
+
+2018-08-01 12:13:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_Type' is clicked on
+
+2018-08-01 12:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/label_Type' is clicked on
+
+2018-08-01 12:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/alt_Label' is clicked on
+
+2018-08-01 12:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/alt_Label' is clicked on
+
+2018-08-01 12:13:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_Save_Btn' is clicked on
+
+2018-08-01 12:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/label_Save_Btn' is clicked on
+
+2018-08-01 12:13:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add note' is clicked on
+
+2018-08-01 12:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add note' is clicked on
+
+2018-08-01 12:13:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:16 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/textarea_note_value'
+
+2018-08-01 12:13:16 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/textarea_note_value'
+
+2018-08-01 12:13:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/button_Save' is clicked on
+
+2018-08-01 12:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/button_Save' is clicked on
+
+2018-08-01 12:13:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add value' is clicked on
+
+2018-08-01 12:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add value' is clicked on
+
+2018-08-01 12:13:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/input_related_value_value' is clicked on
+
+2018-08-01 12:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/input_related_value_value' is clicked on
+
+2018-08-01 12:13:21 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/input_related_value_value'
+
+2018-08-01 12:13:21 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/input_related_value_value'
+
+2018-08-01 12:13:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (5)/button_Save' is clicked on
+
+2018-08-01 12:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (5)/button_Save' is clicked on
+
+2018-08-01 12:13:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-01 12:13:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Thesauri Related Concepts" classname="Test Cases/RDM/RDM Thesauri Related Concepts" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Relation to Concept' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;div id=&quot;s2id_related-relation-type&quot; class=&quot;select2-container select2&quot;> is not clickable at point (958.808349609375,311.6333312988281) because another element &lt;div id=&quot;select2-drop-mask&quot; class=&quot;select2-drop-mask&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2981, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e118800-a4fb-6541-91a2-82be79ebd840)"/>
+         <system-out><![CDATA[2018-08-01 12:13:23 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Thesauri Related Concepts: Test Cases/RDM/RDM Thesauri Related Concepts FAILED because (of) Unable to click on object 'Object Repository/Relation to Concept' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <div id="s2id_related-relation-type" class="select2-container select2"> is not clickable at point (958.808349609375,311.6333312988281) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2981, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e118800-a4fb-6541-91a2-82be79ebd840)
+
+2018-08-01 12:13:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:13:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:13:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:13:26 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:13:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Login' is clicked on
+
+2018-08-01 12:13:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:13:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_username'
+
+2018-08-01 12:13:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:13:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (8)/input_password'
+
+2018-08-01 12:13:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (8)/button_Sign In' is clicked on
+
+2018-08-01 12:13:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:13:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (12)/a_Design' is clicked on
+
+2018-08-01 12:13:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:13:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (4)/div_Test' is clicked on
+
+2018-08-01 12:13:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add related concept' is clicked on
+
+2018-08-01 12:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (3)/a_Add related concept' is clicked on
+
+2018-08-01 12:13:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search for a Concept' is clicked on
+
+2018-08-01 12:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Search for a Concept' is clicked on
+
+2018-08-01 12:13:37 - [TEST_STEP][PASSED] - setText: Text 'asbestos' is set on object 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:13:37 - [MESSAGE][PASSED] - Text 'asbestos' is set on object 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:13:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:13:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_s2id_autogen4_search'
+
+2018-08-01 12:13:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Relation to Concept' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <div id="s2id_related-relation-type" class="select2-container select2"> is not clickable at point (958.808349609375,311.6333312988281) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2981, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e118800-a4fb-6541-91a2-82be79ebd840)
+
+2018-08-01 12:13:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Relation to Concept' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <div id="s2id_related-relation-type" class="select2-container select2"> is not clickable at point (958.808349609375,311.6333312988281) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2981, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e118800-a4fb-6541-91a2-82be79ebd840)
+[[ATTACHMENT|/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150819439.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 12:13:23 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Thesauri Related Concepts: Test Cases/RDM/RDM Thesauri Related Concepts FAILED because (of) Unable to click on object 'Object Repository/Relation to Concept' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <div id="s2id_related-relation-type" class="select2-container select2"> is not clickable at point (958.808349609375,311.6333312988281) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2981, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e118800-a4fb-6541-91a2-82be79ebd840)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Delete Thesauri" classname="Test Cases/RDM/RDM Delete Thesauri" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/btn_Delete_Thesauri' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn-u btn-u-red&quot; type=&quot;submit&quot;> is not clickable at point (877.5666809082031,463.816650390625) because another element &lt;div id=&quot;select2-drop-mask&quot; class=&quot;select2-drop-mask&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2989, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 53a4fc32-c877-bd41-a0ae-af561181349c)"/>
+         <system-out><![CDATA[2018-08-01 12:13:39 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Delete Thesauri: Test Cases/RDM/RDM Delete Thesauri FAILED because (of) Unable to click on object 'Object Repository/btn_Delete_Thesauri' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (877.5666809082031,463.816650390625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2989, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 53a4fc32-c877-bd41-a0ae-af561181349c)
+
+2018-08-01 12:13:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:13:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 12:13:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:13:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:13:42 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:13:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Login' is clicked on
+
+2018-08-01 12:13:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:13:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:13:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:13:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:13:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:13:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Design' is clicked on
+
+2018-08-01 12:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (9)/a_Design' is clicked on
+
+2018-08-01 12:13:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Graphs (4)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:13:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Tools' is clicked on
+
+2018-08-01 12:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (2)/button_Tools' is clicked on
+
+2018-08-01 12:13:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_Thesauri_Btn' is clicked on
+
+2018-08-01 12:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_Thesauri_Btn' is clicked on
+
+2018-08-01 12:13:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/delete_Scheme_Search' is clicked on
+
+2018-08-01 12:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_Scheme_Search' is clicked on
+
+2018-08-01 12:13:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:55 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:13:55 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:13:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:57 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:13:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/input_Delete_Thesauri'
+
+2018-08-01 12:13:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:13:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:13:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/btn_Delete_Thesauri' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (877.5666809082031,463.816650390625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2989, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 53a4fc32-c877-bd41-a0ae-af561181349c)
+
+2018-08-01 12:13:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/btn_Delete_Thesauri' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (877.5666809082031,463.816650390625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2989, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 53a4fc32-c877-bd41-a0ae-af561181349c)
+[[ATTACHMENT|/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150839554.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 12:13:39 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Delete Thesauri: Test Cases/RDM/RDM Delete Thesauri FAILED because (of) Unable to click on object 'Object Repository/btn_Delete_Thesauri' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (877.5666809082031,463.816650390625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2989, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 53a4fc32-c877-bd41-a0ae-af561181349c)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RDM/RDM Collections All" classname="Test Cases/RDM/RDM Collections All" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/button_Delete_Collection' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn-u btn-u-red&quot; type=&quot;submit&quot;> is not clickable at point (957.5666809082031,494.01666259765625) because another element &lt;div id=&quot;select2-drop-mask&quot; class=&quot;select2-drop-mask&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2998, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 48bfa070-bab7-4c4a-ba8e-1dda5ea17272)"/>
+         <system-out><![CDATA[2018-08-01 12:13:59 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Collections All: Test Cases/RDM/RDM Collections All FAILED because (of) Unable to click on object 'Object Repository/button_Delete_Collection' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (957.5666809082031,494.01666259765625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2998, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 48bfa070-bab7-4c4a-ba8e-1dda5ea17272)
+
+2018-08-01 12:13:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-01 12:13:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-01 12:14:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-01 12:14:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-01 12:14:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-01 12:14:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:14:03 - [MESSAGE][PASSED] - Navigate to 'http://dev.archesproject.org/' successfully
+
+2018-08-01 12:14:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Login' is clicked on
+
+2018-08-01 12:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Login' is clicked on
+
+2018-08-01 12:14:03 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:14:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_username'
+
+2018-08-01 12:14:03 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:14:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Arches 4.3 - (10)/input_password'
+
+2018-08-01 12:14:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - (10)/button_Sign In' is clicked on
+
+2018-08-01 12:14:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Manage Data' is clicked on
+
+2018-08-01 12:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches  Heritage Data Manageme (14)/a_Manage Data' is clicked on
+
+2018-08-01 12:14:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Resource Manager (8)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Resource Manager (8)/a_Reference Data Manager' is clicked on
+
+2018-08-01 12:14:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Collections' is clicked on
+
+2018-08-01 12:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Collections' is clicked on
+
+2018-08-01 12:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/div_Test' is clicked on
+
+2018-08-01 12:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/div_Test' is clicked on
+
+2018-08-01 12:14:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/h5_Labels' is clicked on
+
+2018-08-01 12:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/h5_Labels' is clicked on
+
+2018-08-01 12:14:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add label' is clicked on
+
+2018-08-01 12:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add label' is clicked on
+
+2018-08-01 12:14:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/input_Concept_Label' is clicked on
+
+2018-08-01 12:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Concept_Label' is clicked on
+
+2018-08-01 12:14:13 - [TEST_STEP][PASSED] - setText: Text '49er' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_concept-label'
+
+2018-08-01 12:14:13 - [MESSAGE][PASSED] - Text '49er' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_concept-label'
+
+2018-08-01 12:14:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_Type' is clicked on
+
+2018-08-01 12:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/label_Type' is clicked on
+
+2018-08-01 12:14:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/alt_Label' is clicked on
+
+2018-08-01 12:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/alt_Label' is clicked on
+
+2018-08-01 12:14:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/label_Save_Btn' is clicked on
+
+2018-08-01 12:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/label_Save_Btn' is clicked on
+
+2018-08-01 12:14:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add note' is clicked on
+
+2018-08-01 12:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add note' is clicked on
+
+2018-08-01 12:14:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Note_Value' is clicked on
+
+2018-08-01 12:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Note_Value' is clicked on
+
+2018-08-01 12:14:19 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/textarea_note_value'
+
+2018-08-01 12:14:20 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/textarea_note_value'
+
+2018-08-01 12:14:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/note_Save' is clicked on
+
+2018-08-01 12:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/note_Save' is clicked on
+
+2018-08-01 12:14:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add value' is clicked on
+
+2018-08-01 12:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Add value' is clicked on
+
+2018-08-01 12:14:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:26 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_related_value_value'
+
+2018-08-01 12:14:26 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/input_related_value_value'
+
+2018-08-01 12:14:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/value_Save_Btn' is clicked on
+
+2018-08-01 12:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/value_Save_Btn' is clicked on
+
+2018-08-01 12:14:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/i_fa fa-chevron-down' is clicked on
+
+2018-08-01 12:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/i_fa fa-chevron-down' is clicked on
+
+2018-08-01 12:14:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Delete Collection' is clicked on
+
+2018-08-01 12:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Arches 4.3 - Reference Data Ma (6)/a_Delete Collection' is clicked on
+
+2018-08-01 12:14:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/open_Deletion_Options' is clicked on
+
+2018-08-01 12:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/open_Deletion_Options' is clicked on
+
+2018-08-01 12:14:34 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/delete_Collection'
+
+2018-08-01 12:14:34 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/delete_Collection'
+
+2018-08-01 12:14:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/delete_Collection'
+
+2018-08-01 12:14:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/delete_Collection'
+
+2018-08-01 12:14:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-01 12:14:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-01 12:14:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/button_Delete_Collection' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (957.5666809082031,494.01666259765625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2998, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 48bfa070-bab7-4c4a-ba8e-1dda5ea17272)
+
+2018-08-01 12:14:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/button_Delete_Collection' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (957.5666809082031,494.01666259765625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2998, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 48bfa070-bab7-4c4a-ba8e-1dda5ea17272)
+[[ATTACHMENT|/Users/awuthrich/Katalon Studio/Testing scripts/Reports/New Test Suite/20180801_121250/1533150878192.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-01 12:13:59 - [TEST_CASE][FAILED] - Test Cases/RDM/RDM Collections All: Test Cases/RDM/RDM Collections All FAILED because (of) Unable to click on object 'Object Repository/button_Delete_Collection' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn-u btn-u-red" type="submit"> is not clickable at point (957.5666809082031,494.01666259765625) because another element <div id="select2-drop-mask" class="select2-drop-mask"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DRW-MacBook-Pro.local', ip: 'fe80:0:0:0:6e40:8ff:feb0:5c4c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2998, moz:profile: /var/folders/qy/d6mh1grs5d5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 15.6.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 48bfa070-bab7-4c4a-ba8e-1dda5ea17272)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-01 12:12:51 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/RDM/RDM Create Thesauri and Collection FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-08-01 12:12:51 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/RDM/RDM Create Thesauri and Collection FAILED because (of) Unable to set text (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Test_Collection</name>
+   <tag></tag>
+   <elementGuidId>cd31da10-70cb-40e6-9e66-03bad7dce28a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ddtree&quot;)/ul[@class=&quot;jqtree_common jqtree-tree&quot;]/li[@class=&quot;jqtree_common&quot;]/div[@class=&quot;jqtree-element jqtree_common&quot;][count(. | //div[(text() = 'Test' or . = 'Test')]) = count(//div[(text() = 'Test' or . = 'Test')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jqtree-element jqtree_common</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ddtree&quot;)/ul[@class=&quot;jqtree_common jqtree-tree&quot;]/li[@class=&quot;jqtree_common&quot;]/div[@class=&quot;jqtree-element jqtree_common&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
