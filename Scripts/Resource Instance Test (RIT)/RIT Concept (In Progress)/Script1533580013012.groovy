@@ -20,29 +20,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authentication/Login To Resource Instance Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+//Needs to be switched to the Objects in the Name Card Folder
 
-WebUI.maximizeWindow()
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/a_Create Resource (1)'))
+WebUI.navigateToUrl('http://localhost:8000/auth/?next=/resource')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Page_Arches 4.3 - (4)/input_username'), 'admin')
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/a_String_Click'))
+WebUI.setText(findTestObject('Page_Arches 4.3 - (4)/input_password'), 'admin')
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/input_String_Info'))
+WebUI.click(findTestObject('Page_Arches 4.3 - (4)/button_Sign In'))
 
-WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/String/input_String_Info'), 'Test')
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (2)/a_Create Resource'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (2)/span_Park Name'))
 
-WebUI.switchToFrame(findTestObject('RIT Objects/Resource Instance Editor/String/iframe_Rich_Text'), 60)
+WebUI.setText(findTestObject('Page_Arches 4.3 - Resource Manager (2)/input_form-control input-lg wi'), 'test park')
 
-WebUI.delay(2)
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/Recycled/div_select2-drop-mask'))
 
-//WebUI.scrollToElement(findTestObject('RIT Objects/Resource Instance Editor/String/iframe_Rich_Text'), 60)
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (2)/button_Add'))
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/rich_Text_Input'))
-
-WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/String/rich_Text_Input'), 'Test')
+WebUI.closeBrowser()
 

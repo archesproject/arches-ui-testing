@@ -18,33 +18,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://dev.archesproject.org/')
+WebUI.navigateToUrl('http://localhost:8000/')
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (7)/input_username'), 'admin')
+WebUI.click(findTestObject('Authentication Objects/a_Login'))
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (7)/input_password'), 'admin')
+WebUI.setText(findTestObject('Authentication Objects/input_username'), 'admin')
 
-WebUI.click(findTestObject('Page_Arches 4.3 - (7)/button_Sign In'))
+WebUI.setText(findTestObject('Authentication Objects/input_password'), 'admin')
 
-WebUI.click(findTestObject('Page_Arches  Heritage Data Manageme (3)/a_Manage Data'))
+WebUI.click(findTestObject('Authentication Objects/button_Sign In'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (5)/a_Create Resource'))
-
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (5)/span_Park Name'))
-
-WebUI.setText(findTestObject('Page_Arches 4.3 - Resource Manager (5)/input_form-control input-lg wi'), 'TEST')
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/button_Add'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/span_Park Image'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/span_Add files...'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/button_Add'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/a_Manage_Data'))
 
