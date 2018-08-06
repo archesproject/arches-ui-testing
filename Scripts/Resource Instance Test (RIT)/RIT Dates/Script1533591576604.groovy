@@ -20,40 +20,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Authentication/Login To Resource Instance Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8000/auth/')
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/a_Create Resource (1)'))
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (8)/input_username'), 'admin')
+//For the test suite... will need to change a_Create Resource to div_Test_Instance--
+//--(yet to be created, but will have every test case work on the same Resource Instance instead of creating a new one everytime)
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (8)/input_password'), 'admin')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Arches 4.3 - (8)/button_Sign In'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/span_Dates'))
 
-//Needs new element
-//WebUI.click(findTestObject('Page_Arches  Heritage Data Manageme (4)/a_Search'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/calender_Object'))
 
-WebUI.click(findTestObject('RIT Objects/Search Page/button_Select...'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/td_6 (1)'))
 
-WebUI.click(findTestObject('RIT Objects/Search Page/a_World Parks (Testing Model)'))
-
-WebUI.click(findTestObject('RIT Objects/Search Page/span_TEST'))
-
-WebUI.switchToWindowTitle('Arches 4.3 - Resource Report')
-
-WebUI.click(findTestObject('RIT Objects/Resource Report/Page_Arches 4.3 - Resource Report/i_ion-edit'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/span_Existence-Precision (date'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/td_29'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/div_select2-drop-mask'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/span_Select an option'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/td_6'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/button_Add'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/button_Add'))
 

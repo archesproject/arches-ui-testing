@@ -22,27 +22,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authentication/Login To Resource Instance Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/a_Create Resource (1)'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Domain/span_domains'))
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/a_String_Click'))
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/input_String_Info'))
-
-WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/String/input_String_Info'), 'Test')
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Domain/label_option 1'))
 
 WebUI.delay(2)
 
-WebUI.switchToFrame(findTestObject('RIT Objects/Resource Instance Editor/String/iframe_Rich_Text'), 60)
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Domain/a_Select_Widget'))
 
 WebUI.delay(2)
 
-//WebUI.scrollToElement(findTestObject('RIT Objects/Resource Instance Editor/String/iframe_Rich_Text'), 60)
+WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/Domain/input_Select_Option'), 'option 1')
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/rich_Text_Input'))
+WebUI.sendKeys(findTestObject('RIT Objects/Resource Instance Editor/Domain/input_Select_Option'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/String/rich_Text_Input'), 'Test')
+WebUI.delay(2)
+
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Domain/button_Add'))
+
+
 

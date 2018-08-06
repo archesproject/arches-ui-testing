@@ -18,31 +18,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authentication/Login To Resource Instance Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+//For the test suite... will need to change a_Create Resource to div_Test_Instance-- 
+//--(yet to be created, but will have every test case work on the same Resource Instance instead of creating a new one everytime)
 
 WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/a_Create Resource (1)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/a_String_Click'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Number/span_number'))
 
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/input_String_Info'))
+WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/Number/input_form-control input-lg wi_1'), '123')
 
-WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/String/input_String_Info'), 'Test')
-
-WebUI.delay(2)
-
-WebUI.switchToFrame(findTestObject('RIT Objects/Resource Instance Editor/String/iframe_Rich_Text'), 60)
-
-WebUI.delay(2)
-
-//WebUI.scrollToElement(findTestObject('RIT Objects/Resource Instance Editor/String/iframe_Rich_Text'), 60)
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/String/rich_Text_Input'))
-
-WebUI.setText(findTestObject('RIT Objects/Resource Instance Editor/String/rich_Text_Input'), 'Test')
-
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/button_Add'))

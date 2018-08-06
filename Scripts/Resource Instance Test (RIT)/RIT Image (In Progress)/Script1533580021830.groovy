@@ -20,27 +20,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Needs to be switched to the Objects in the Name Card Folder
+WebUI.callTestCase(findTestCase('Authentication/Login To Resource Instance Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (5)/a_Create Resource'))
 
-WebUI.navigateToUrl('http://localhost:8000/auth/?next=/resource')
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (5)/span_Park Name'))
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (4)/input_username'), 'admin')
+WebUI.setText(findTestObject('Page_Arches 4.3 - Resource Manager (5)/input_form-control input-lg wi'), 'TEST')
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (4)/input_password'), 'admin')
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/button_Add'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - (4)/button_Sign In'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/span_Park Image'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (2)/a_Create Resource'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/span_Add files...'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (2)/span_Park Name'))
-
-WebUI.setText(findTestObject('Page_Arches 4.3 - Resource Manager (2)/input_form-control input-lg wi'), 'test park')
-
-WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Name Card/div_select2-drop-mask'))
-
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (2)/button_Add'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/button_Add'))
 
 WebUI.closeBrowser()
 
