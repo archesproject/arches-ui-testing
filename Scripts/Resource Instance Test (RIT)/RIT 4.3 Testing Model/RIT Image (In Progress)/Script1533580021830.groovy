@@ -20,24 +20,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Needs complete rework
+//Needs complete rework 
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Authentication/Login To Resource Instance Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8000/auth/')
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (5)/a_Create Resource'))
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (2)/input_username'), 'admin')
+WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager (5)/span_Park Name'))
 
-WebUI.setText(findTestObject('Page_Arches 4.3 - (2)/input_password'), 'admin')
+WebUI.setText(findTestObject('Page_Arches 4.3 - Resource Manager (5)/input_form-control input-lg wi'), 'TEST')
 
-WebUI.click(findTestObject('Page_Arches 4.3 - (2)/button_Sign In'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/button_Add'))
 
-WebUI.click(findTestObject('Page_Arches  Heritage Data Manageme (6)/a_Design'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/span_Park Image'))
 
-WebUI.delay(2)
-WebUI.click(findTestObject('Graph Manager Objects/Import Objects/i_ion-more'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/span_Add files...'))
 
-WebUI.uploadFile(findTestObject('Graph Manager Objects/Import Objects/a_Import BranchResource Model'), 'C:\\\\Users\\\\awuthrich\\\\Documents\\\\TestingModel.json')
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Image Card/button_Add'))
 
 WebUI.closeBrowser()
 

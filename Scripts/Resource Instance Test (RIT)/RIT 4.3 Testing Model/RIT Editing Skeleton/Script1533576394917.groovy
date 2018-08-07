@@ -36,17 +36,11 @@ WebUI.click(findTestObject('Page_Arches  Heritage Data Manageme/a_Manage Data'))
 
 WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/a_Create Resource (1)'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/i_fa fa-plus-circle add-new-ti'))
-
-WebUI.setText(findTestObject('Page_Arches 4.3 - Resource Manager/input_form-control input-lg wi'), 'Test')
-
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/p'))
-
 WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Buttons/button_Add'))
 
 WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/span_Dates'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/span_input-group-addon'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/Recycled/span_input-group-addon'))
 
 WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Dates Widget/td_6 (1)'))
 
@@ -60,17 +54,17 @@ WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Pages and Butto
 
 WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/button_Save edit'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/span_boolean'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Boolean/span_boolean'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/span_switch switch-small switc'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Boolean/span_switch switch-small switc'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/span_switch switch-small switc'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Boolean/span_switch switch-small switc'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/div_boolean'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Boolean/div_boolean'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/span_switch switch-small switc'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Boolean/span_switch switch-small switc'))
 
-WebUI.click(findTestObject('Page_Arches 4.3 - Resource Manager/label_Yes'))
+WebUI.click(findTestObject('RIT Objects/Resource Instance Editor/Boolean/label_Yes'))
 
 WebUI.closeBrowser()
 
