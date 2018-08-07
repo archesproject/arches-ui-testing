@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>/html/body/div[2]/div/div/div/div[4]/div/div[1]/div/div[2]/ul/li[1]/ul/li[7]/a[count(. | //a[@class = 'jstree-anchor']) = count(//a[@class = 'jstree-anchor'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div/div/div/div[4]/div/div[1]/div/div[2]/ul/li[1]/ul/li[5]/a</value>
+      <value>/html/body/div[2]/div/div/div/div[4]/div/div[1]/div/div[2]/ul/li[1]/ul/li[7]/a</value>
    </webElementProperties>
 </WebElementEntity>
